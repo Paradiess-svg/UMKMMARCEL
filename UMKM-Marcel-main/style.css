@@ -367,30 +367,27 @@ body {
   .button-up:hover {
     transform: scale(1.01); }
 
-.google-map {
-     padding-bottom: 50%;
-     position: relative;
-}
-
-.google-map iframe {
-     height: 100%;
-     width: 100%;
-     left: 0;
-     top: 0;
-     position: absolute;
-}
 
 @media (max-width: 992px) {
   .middle-side {
     display: none; }
 
   .search-form {
-    width: 50%; } }
+    width: 50%; } 
+  
+iframe {
+  height: 300px;
+  width: 100%;
+}}
+
+    
 @media (max-width: 576px) {
   ._navbar {
     width: 50%; }
 
   .search-form {
     width: 75%; } }
+
+    
 
 /*# sourceMappingURL=style.css.map */
